@@ -1,0 +1,4 @@
+<launch>
+    <!-- <node name="pcl_filter" pkg="realsense" type="pcl_filter" /> -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find realsense)/rviz/depth_image.rviz" required="true" />
+</launch>
